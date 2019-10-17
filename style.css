@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|DM+Serif+Text|Libre+Baskerville|Open+Sans|Playfair+Display+SC|Roboto&display=swap');
+
+header h1 {
+    text-align: center;
+    font-family: arvo;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar .nav-item .nav-link {
+    text-transform: uppercase;
+    font-family: open sans;
+    font-size: .75em;
+    color: darkslategrey;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: rgb(0, 151, 0);
+}
+
+#welcometext {
+    padding: 40px;
+    text-align: justify;
+    font-family: libre baskerville;
+}
