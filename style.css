@@ -8,7 +8,7 @@ header h1 {
     text-align: center;
     font-family: libre baskerville;
     color: black;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 header h1 a {
@@ -24,10 +24,17 @@ header img {
     display: block;
 }
 
-.navbar .nav-item .nav-link {
+#smallscreenlogo {
+    display: inline-block;
+    font-family: libre baskerville;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar .nav-item .nav-link {Ï
     text-transform: uppercase;
-    font-family: open sans;
-    font-size: .75em;
+    font-family: playfair display sc;
+    font-size: .85em;
     color: darkslategrey;
 }
 
@@ -41,8 +48,13 @@ footer {
     padding-top: 10px;
     }
 
-footer h6 {
+footer span {
+    display: block;
     color: darkslategrey;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-bottom: 0;
+    font-family: libre baskerville;
+    font-size: 0.8em;
 }
