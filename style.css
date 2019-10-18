@@ -25,10 +25,8 @@ header img {
 }
 
 #smallscreenlogo {
-    display: inline-block;
     font-family: libre baskerville;
     text-align: center;
-    width: 100%;
 }
 
 .navbar .nav-item .nav-link {Ï
@@ -40,6 +38,17 @@ header img {
 
 .navbar .nav-item .nav-link:hover {
     color: rgb(0, 151, 0);
+}
+
+.welcometext {
+    font-size: .9rem;
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: libre baskerville;
+    color: rgb(58, 92, 92);
 }
 
 footer {
@@ -57,4 +66,18 @@ footer span {
     margin-bottom: 0;
     font-family: libre baskerville;
     font-size: 0.8em;
+}
+
+@media only screen and (min-width: 600px) {
+    .welcometext {
+        font-size: 1rem;
+        padding: 30px; 20px, 30px, 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .welcometext {
+        font-size: 1.2rem;
+        padding: 30px; 20px, 30px, 20px;
+    }
 }
