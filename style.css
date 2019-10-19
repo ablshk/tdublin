@@ -29,7 +29,7 @@ header img {
     text-align: center;
 }
 
-.navbar .nav-item .nav-link {Ï
+.navbar .nav-item .nav-link {
     text-transform: uppercase;
     font-family: playfair display sc;
     font-size: .85em;
@@ -40,6 +40,21 @@ header img {
     color: rgb(0, 151, 0);
 }
 
+.homeimage {
+    margin-bottom: 2rem;
+}
+
+.cardcontainer {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.cardcontainer .cardwidth {
+    width: 18rem;
+}
+
+
 .welcometext {
     font-size: .9rem;
     text-align: justify;
@@ -47,7 +62,7 @@ header img {
     padding-bottom: 20px;
     padding-left: 15px;
     padding-right: 15px;
-    font-family: libre baskerville;
+    font-family: open sans;
     color: rgb(58, 92, 92);
 }
 
