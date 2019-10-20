@@ -7,13 +7,13 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-	</script>
+		</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
 		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-	</script>
+		</script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-	</script>
+		</script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -22,15 +22,20 @@
 </head>
 
 <body>
+
+	<!-- colored line at the top of the page / logo start -->
+
 	<header>
 		<img src="assets/img/10pxdivider.png" class="img-fluid" id="divider" alt="irish flag colors">
 		<h1 class="d-none d-md-block"><a href="index.html">tourismdublin.com</a></h1>
 	</header>
 
+	<!-- nav bar start -->
+
 	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 		<button class="navbar-toggler" data-toggle="collapse" data-target="#collapsenav">
-    <span class="navbar-toggler-icon"></span>
-    </button>
+			<span class="navbar-toggler-icon"></span>
+		</button>
 		<a class="d-md-none navbar-brand" id="smallscreenlogo">tourismdublin.com</a>
 
 		<div class="collapse navbar-collapse" id="collapsenav">
@@ -39,7 +44,8 @@
 					<a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="accommodation.html"><i class="fa fa-bed" aria-hidden="true"></i> Accommodation</a>
+					<a class="nav-link" href="accommodation.html"><i class="fa fa-bed" aria-hidden="true"></i>
+						Accommodation</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="ttd.html"><i class="fa fa-check" aria-hidden="true"></i> Things-To-Do</a>
@@ -51,78 +57,95 @@
 					<a class="nav-link" href="travel.html"><i class="fa fa-suitcase" aria-hidden="true"></i> Travel</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="didyouknow.html"><i class="fa fa-question" aria-hidden="true"></i> Did You Know</a>
+					<a class="nav-link" href="didyouknow.html"><i class="fa fa-question" aria-hidden="true"></i> Did You
+						Know</a>
 				</li>
 			</ul>
 		</div>
 	</nav>
+
+	<!-- cover image start -->
+
 	<img src="assets/img/2acccomp.jpg" class="img-fluid" id="acc-cover-img" alt="bedside lamp illuminating a bed">
 
+	<!-- accommodation cards start -->
+
 	<div class="container-fluid">
-        <div class="row justify-content-around">
-        
-        <div class="card cardwidth col-xs-6 col-sm-4 col-lg-3">
-        
-          <img src="assets/img/accommodation/comclaytonhotel.jpg" class="card-img-top" alt="image of hotel entrance">
-          <div class="card-body">
-            <h5 class="card-title">Clayton Hotel - Burlington Road</h5>
-            <a href="https://www.claytonhotelburlingtonroad.com" target="_blank" class="btn btn-success stretched-link">More info</a>
-          </div>
-        </div>
-        
-        <div class="card cardwidth col-xs-6 col-sm-4 col-lg-3">
-        
-          <img src="assets/img/accommodation/comclontarfcastle.jpg" class="card-img-top" alt="image of a castle hotel">
-          <div class="card-body">
-            <h5 class="card-title">Clontarf Castle</h5>
-            <a href="https://www.clontarfcastle.ie" target="_blank" class="btn btn-success stretched-link">More info</a>
-          </div>
-        </div>
-        
-        <div class="w-100 d-none d-sm-block d-lg-none"></div>
-        
-        <div class="card cardwidth col-xs-6 col-sm-4 col-lg-3">
-        
-		 <img src="assets/img/accommodation/comgibsonhotel.jpg" class="card-img-top" alt="hotel bar and lobby">
-          <div class="card-body">
-            <h5 class="card-title">The Gibson Hotel</h5>
-            <a href="https://www.thegibsonhotel.ie/" target="_blank" class="btn btn-success stretched-link">More info</a>
-          </div>
-        </div>
-        
-        <div class="w-100 d-none d-lg-block"></div>
-        
-        <div class="card cardwidth col-xs-6 col-sm-4 col-lg-3">
-        
-          <img src="assets/img/accommodation/comcrokepark.jpg" class="card-img-top" alt="modern looking room">
-          <div class="card-body">
-            <h5 class="card-title">Croke Park</h5>
-            <a href="https://crokepark.ie" target="_blank" class="btn btn-success stretched-link">More info</a>
-          </div>
-        </div>
-        
-        <div class="w-100 d-none d-sm-block d-lg-none"></div>
-        
-        <div class="card cardwidth col-xs-6 col-sm-4 col-lg-3">
-        
-          <img src="assets/img/accommodation/comthewilder.jpg" class="card-img-top" alt="hotel and pool under starry sky">
-          <div class="card-body">
-            <h5 class="card-title">The Wilder</h5>
-            <a href="https://www.thewilder.ie" target="_blank" class="btn btn-success stretched-link">More info</a>
-          </div>
-        </div>
-        
-        <div class="card cardwidth col-xs-6 col-sm-4 col-lg-3">
-        
-          <img src="assets/img/accommodation/comiveaghgarden.jpg" class="card-img-top" alt="countryside swimming pool">
-          <div class="card-body">
-            <h5 class="card-title">Iveagh Garden Hotel</h5>
-            <a href="https://www.iveaghgardenhotel.ie/" target="_blank" class="btn btn-success stretched-link">More info</a>
-          </div>
-        </div>
-        
-        </div>
-        </div>
+		<div class="row justify-content-around">
+
+			<div class="card cardwidth col-xs-6 col-sm-4 col-lg-3">
+
+				<img src="assets/img/accommodation/comclaytonhotel.jpg" class="card-img-top"
+					alt="image of hotel entrance">
+				<div class="card-body">
+					<h5 class="card-title">Clayton Hotel - Burlington Road</h5>
+					<a href="https://www.claytonhotelburlingtonroad.com" target="_blank"
+						class="btn btn-success stretched-link">More info</a>
+				</div>
+			</div>
+
+			<div class="card cardwidth col-xs-6 col-sm-4 col-lg-3">
+
+				<img src="assets/img/accommodation/comclontarfcastle.jpg" class="card-img-top"
+					alt="image of a castle hotel">
+				<div class="card-body">
+					<h5 class="card-title">Clontarf Castle</h5>
+					<a href="https://www.clontarfcastle.ie" target="_blank" class="btn btn-success stretched-link">More
+						info</a>
+				</div>
+			</div>
+
+			<div class="w-100 d-none d-sm-block d-lg-none"></div>
+
+			<div class="card cardwidth col-xs-6 col-sm-4 col-lg-3">
+
+				<img src="assets/img/accommodation/comgibsonhotel.jpg" class="card-img-top" alt="hotel bar and lobby">
+				<div class="card-body">
+					<h5 class="card-title">The Gibson Hotel</h5>
+					<a href="https://www.thegibsonhotel.ie/" target="_blank" class="btn btn-success stretched-link">More
+						info</a>
+				</div>
+			</div>
+
+			<div class="w-100 d-none d-lg-block"></div>
+
+			<div class="card cardwidth col-xs-6 col-sm-4 col-lg-3">
+
+				<img src="assets/img/accommodation/comcrokepark.jpg" class="card-img-top" alt="modern looking room">
+				<div class="card-body">
+					<h5 class="card-title">Croke Park</h5>
+					<a href="https://crokepark.ie" target="_blank" class="btn btn-success stretched-link">More info</a>
+				</div>
+			</div>
+
+			<div class="w-100 d-none d-sm-block d-lg-none"></div>
+
+			<div class="card cardwidth col-xs-6 col-sm-4 col-lg-3">
+
+				<img src="assets/img/accommodation/comthewilder.jpg" class="card-img-top"
+					alt="hotel and pool under starry sky">
+				<div class="card-body">
+					<h5 class="card-title">The Wilder</h5>
+					<a href="https://www.thewilder.ie" target="_blank" class="btn btn-success stretched-link">More
+						info</a>
+				</div>
+			</div>
+
+			<div class="card cardwidth col-xs-6 col-sm-4 col-lg-3">
+
+				<img src="assets/img/accommodation/comiveaghgarden.jpg" class="card-img-top"
+					alt="countryside swimming pool">
+				<div class="card-body">
+					<h5 class="card-title">Iveagh Garden Hotel</h5>
+					<a href="https://www.iveaghgardenhotel.ie/" target="_blank"
+						class="btn btn-success stretched-link">More info</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- footer start -->
 
 	<footer>
 		<span>Contact: aabikodali@outlook.com</span>
