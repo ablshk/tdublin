@@ -41,16 +41,22 @@ header img {
 }
 
 .homeimage {
-    margin-bottom: .2rem;
+    margin-bottom: .27rem;
 }
 
 #acc-cover-img {
     margin-bottom: 2rem;
 }
 
+#h5travelinfo {
+    text-align: center;
+    font-family: libre baskerville;
+}
+
 .container-fluid .cardwidth {
     padding: 0;
     margin-bottom: 2rem;
+    margin-top: 2.3rem;
 }
 
 .welcometext {
