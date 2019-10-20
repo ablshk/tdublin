@@ -53,6 +53,17 @@ header img {
     font-family: libre baskerville;
 }
 
+#dykfactsheader {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+#dykfactslist {
+    font-size: 1.3rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
 .container-fluid .cardwidth {
     padding: 0;
     margin-bottom: 2rem;
