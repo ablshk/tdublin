@@ -44,6 +44,10 @@ header img {
     margin-bottom: .2rem;
 }
 
+#acc-cover-img {
+    margin-bottom: 2rem;
+}
+
 .container-fluid .cardwidth {
     padding: 0;
     margin-bottom: 2rem;
